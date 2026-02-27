@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Gear/sprocket shape -->
+  <g fill="#4d9078">
+    <!-- Outer gear ring with teeth -->
+    <path d="
+      M50 4
+      L54 4 L56 12 L58 12 L62 5 L66 7 L65 15 L67 16 L72 10 L75 13 L72 20 L74 21
+      L80 17 L82 20 L77 26 L78 28 L85 26 L86 30 L80 33 L80 35 L87 36 L87 40 L80 40
+      L79 42 L86 46 L84 50 L77 47 L76 49 L82 54 L79 57 L73 53 L71 55 L75 62 L72 64
+      L67 58 L65 59 L67 67 L64 68 L60 62 L58 62 L58 70 L54 70 L53 62 L51 62 L49 70
+      L45 70 L44 62 L42 62 L40 68 L36 67 L38 59 L36 58 L31 64 L28 62 L32 55 L30 53
+      L24 57 L21 54 L27 49 L26 47 L19 50 L17 46 L24 42 L23 40 L16 40 L16 36 L23 35
+      L23 33 L17 30 L18 26 L25 28 L26 26 L21 20 L24 17 L29 21 L31 20 L28 13 L31 10
+      L36 16 L38 15 L37 7 L41 5 L44 12 L46 12 L48 4 Z
+    " />
+    <!-- Inner cutout circle -->
+    <circle cx="50" cy="37" r="22" fill="white" />
+  </g>
+  <!-- Contactless/NFC waves -->
+  <g fill="none" stroke="#197bbd" stroke-width="4.5" stroke-linecap="round">
+    <path d="M44 43 Q50 37, 44 31" />
+    <path d="M50 47 Q60 37, 50 27" />
+    <path d="M56 51 Q70 37, 56 23" />
+  </g>
+</svg>

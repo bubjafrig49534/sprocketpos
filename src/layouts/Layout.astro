@@ -36,15 +36,16 @@ const { title, description, ogUrl } = Astro.props;
     <!-- NAV -->
     <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[#e5e7eb]">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <a href="/" class="text-[#1a3a2a] font-bold text-xl flex items-center gap-1">
-          <span>⚙️</span> Sprocket
+        <a href="/" class="text-[#4d9078] font-bold text-xl flex items-center gap-2">
+          <img src="/logo.svg" alt="Sprocket logo" class="h-8 w-8" />
+          Sprocket
         </a>
         <div class="flex items-center gap-6">
-          <a href="/#pricing" class="hidden sm:inline text-[#111827] hover:text-[#1a3a2a] text-sm font-medium">Pricing</a>
-          <a href="/about" class="hidden sm:inline text-[#111827] hover:text-[#1a3a2a] text-sm font-medium">About</a>
+          <a href="/#pricing" class="hidden sm:inline text-[#111827] hover:text-[#4d9078] text-sm font-medium">Pricing</a>
+          <a href="/about" class="hidden sm:inline text-[#111827] hover:text-[#4d9078] text-sm font-medium">About</a>
           <a
             href="/waitlist"
-            class="bg-[#1a3a2a] text-white rounded-lg px-4 py-2 text-sm font-semibold hover:bg-[#1a3a2a]/90"
+            class="bg-[#4d9078] text-white rounded-lg px-4 py-2 text-sm font-semibold hover:bg-[#4d9078]/90"
           >
             Join the Waitlist
           </a>
@@ -60,13 +61,14 @@ const { title, description, ogUrl } = Astro.props;
     </main>
 
     <!-- FOOTER -->
-    <footer class="bg-[#111f17] text-white">
+    <footer class="bg-[#2a5c48] text-white">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <!-- Col 1 -->
           <div>
-            <div class="font-bold text-lg flex items-center gap-1 mb-2">
-              <span>⚙️</span> Sprocket
+            <div class="font-bold text-lg flex items-center gap-2 mb-2">
+              <img src="/logo.svg" alt="Sprocket logo" class="h-7 w-7 brightness-0 invert" />
+              Sprocket
             </div>
             <p class="text-white/70 text-sm">Payments built for bike shops.</p>
             <p class="text-white/70 text-sm mt-1">sprocketpos.com</p>

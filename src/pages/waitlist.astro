@@ -11,10 +11,10 @@ import Layout from '../layouts/Layout.astro';
     <div class="max-w-lg mx-auto">
       <!-- Header -->
       <div class="text-center">
-        <span class="inline-block bg-[#fff7ed] text-[#f97316] text-sm font-medium px-3 py-1 rounded-full mb-6">
+        <span class="inline-block bg-[#fef9e7] text-[#f97316] text-sm font-medium px-3 py-1 rounded-full mb-6">
           Early Access
         </span>
-        <h1 class="text-3xl sm:text-4xl font-bold text-[#1a3a2a] leading-tight">
+        <h1 class="text-3xl sm:text-4xl font-bold text-[#4d9078] leading-tight">
           Get early access to Sprocket.
         </h1>
         <p class="text-[#6b7280] mt-4 leading-relaxed">
@@ -25,25 +25,34 @@ import Layout from '../layouts/Layout.astro';
       <!-- Benefits -->
       <ul class="mt-8 space-y-3 text-sm text-[#111827]">
         <li class="flex items-start gap-2">
-          <span class="text-green-600 mt-0.5">✅</span>
+          <span class="text-[#4d9078] mt-0.5">✅</span>
           <span>Locked-in launch pricing — never pay more than your early access rate</span>
         </li>
         <li class="flex items-start gap-2">
-          <span class="text-green-600 mt-0.5">✅</span>
+          <span class="text-[#4d9078] mt-0.5">✅</span>
           <span>Direct input on the feature roadmap</span>
         </li>
         <li class="flex items-start gap-2">
-          <span class="text-green-600 mt-0.5">✅</span>
+          <span class="text-[#4d9078] mt-0.5">✅</span>
           <span>Hands-on onboarding from the founding team</span>
         </li>
       </ul>
 
-      <!-- Tally Form Placeholder -->
+      <!-- Tally Form Embed -->
       <div class="mt-10">
-        <!-- TALLY FORM EMBED: Replace this block with your Tally embed script -->
-        <div style="border: 2px dashed #e5e7eb; border-radius: 8px; padding: 48px; text-align: center; color: #6b7280;">
-          📋 Tally form will load here
-        </div>
+        <iframe
+          data-tally-src="https://tally.so/embed/A7lxgD?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          loading="lazy"
+          width="100%"
+          height="300"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          title="Sprocket Waitlist"
+        ></iframe>
+        <script is:inline>
+          var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w;s.onload=v;s.onerror=v;d.body.appendChild(s);}
+        </script>
       </div>
 
       <!-- Below form text -->

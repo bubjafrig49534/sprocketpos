@@ -8,37 +8,43 @@ import Layout from '../layouts/Layout.astro';
   ogUrl="https://sprocketpos.com"
 >
   <!-- HERO -->
-  <section class="bg-white py-24 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto text-center">
-      <span class="inline-block bg-[#fef9e7] text-[#f97316] text-sm font-medium px-3 py-1 rounded-full mb-6">
+  <section class="relative bg-[#2a5c48] py-28 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <img
+      src="/hero-bg.jpg"
+      alt=""
+      class="absolute inset-0 w-full h-full object-cover opacity-25"
+    />
+    <div class="absolute inset-0 bg-gradient-to-b from-[#2a5c48]/60 to-[#2a5c48]/90"></div>
+    <div class="relative max-w-4xl mx-auto text-center">
+      <span class="inline-block bg-white/15 text-[#f4d35e] text-sm font-medium px-3 py-1 rounded-full mb-6 backdrop-blur-sm">
         Now accepting early access
       </span>
-      <h1 class="text-4xl sm:text-5xl font-bold text-[#4d9078] max-w-3xl mx-auto leading-tight">
+      <h1 class="text-4xl sm:text-5xl font-bold text-white max-w-3xl mx-auto leading-tight">
         Payments. Invoices. Repair orders. Built for bike shops.
       </h1>
-      <p class="text-lg sm:text-xl text-[#6b7280] max-w-2xl mx-auto mt-4">
+      <p class="text-lg sm:text-xl text-white/80 max-w-2xl mx-auto mt-4">
         Lightspeed is for chains. Square is for coffee shops. Sprocket is for your shop — self-serve setup, transparent pricing, and a repair workflow that actually makes sense.
       </p>
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
         <a
           href="/waitlist"
-          class="bg-[#4d9078] text-white rounded-lg px-6 py-3 font-semibold hover:bg-[#4d9078]/90"
+          class="bg-white text-[#2a5c48] rounded-lg px-6 py-3 font-semibold hover:bg-white/90"
         >
           Join the waitlist
         </a>
         <a
           href="#pricing"
-          class="bg-white text-[#4d9078] border border-[#4d9078] rounded-lg px-6 py-3 font-semibold hover:bg-[#f9fafb]"
+          class="bg-transparent text-white border border-white/50 rounded-lg px-6 py-3 font-semibold hover:bg-white/10"
         >
           See pricing
         </a>
       </div>
-      <p class="text-sm text-[#6b7280] mt-4">No demo call. No sales pitch. Live in 20 minutes.</p>
-      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-0 mt-8 text-sm text-[#6b7280]">
+      <p class="text-sm text-white/60 mt-4">No demo call. No sales pitch. Live in 20 minutes.</p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-0 mt-8 text-sm text-white/60">
         <span class="px-4">Self-serve setup</span>
-        <span class="hidden sm:inline text-[#e5e7eb]">|</span>
+        <span class="hidden sm:inline text-white/30">|</span>
         <span class="px-4">Transparent pricing</span>
-        <span class="hidden sm:inline text-[#e5e7eb]">|</span>
+        <span class="hidden sm:inline text-white/30">|</span>
         <span class="px-4">Built for repairs</span>
       </div>
     </div>
